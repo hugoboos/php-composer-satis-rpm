@@ -1,0 +1,8 @@
+--- bin/compile
++++ bin/compile
+@@ -32,4 +32,4 @@
+ }
+ 
+ $compiler = new Compiler();
+-$compiler->compile();
++$compiler->compile($argv[1]);
